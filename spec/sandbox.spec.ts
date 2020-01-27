@@ -1,4 +1,4 @@
-import { expect } from "chai";
+import { strictEqual } from "assert";
 import { before } from "mocha";
 import { browser, by, element } from "protractor";
 
@@ -14,7 +14,7 @@ describe("Sandbox", () => {
     const title = await browser.getTitle();
     const header = element(by.css("h1"));
 
-    expect(title).to.equal("Sandbox");
-    expect(await header.getText()).to.equal("Sandbox");
+    strictEqual(title, "Sandbox");
+    strictEqual(await header.getText(), "Sandbox");
   });
 });
