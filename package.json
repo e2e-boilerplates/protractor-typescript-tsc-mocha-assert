@@ -1,10 +1,10 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-typescript-tsc-mocha-assert/issues"
   },
   "dependencies": {
-    "tslint-plugin-prettier": "^2.2.0"
+    "protractor": "^5.4.3"
   },
   "description": "Protractor end-to-end test automation boilerplate. using TypeScript, Tsc, Mocha and Assert.",
   "devDependencies": {
@@ -17,10 +17,10 @@
     "mocha": "7.1.1",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
-    "protractor": "5.4.3",
     "rimraf": "3.0.2",
     "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.2.0",
     "typescript": "3.8.3"
   },
   "homepage": "https://github.com/e2e-boilerplate/protractor-typescript-tsc-mocha-assert#readme",
@@ -31,11 +31,6 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "mocha",
     "protractor",
     "tsc",
