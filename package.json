@@ -12,7 +12,7 @@
   "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, Tsc, Mocha and Assert.",
   "devDependencies": {
     "@types/mocha": "7.0.2",
-    "@types/node": "13.13.2",
+    "@types/node": "13.13.3",
     "husky": "4.2.5",
     "lint-staged": "10.1.7",
     "prettier": "2.0.4",
