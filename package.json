@@ -9,7 +9,7 @@
     "rimraf": "3.0.2",
     "typescript": "3.8.3"
   },
-  "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, Tsc, Mocha and Assert.",
+  "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, tsc, Mocha and Assert.",
   "devDependencies": {
     "@types/mocha": "7.0.2",
     "@types/node": "13.13.5",
